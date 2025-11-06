@@ -23,6 +23,7 @@ body{
     padding: auto;
     margin: 1%;
     color:blueviolet;
+    background-color: bisque;
 }
 
 h2{
@@ -58,4 +59,3 @@ h3{
 footer{
         font-size: x-small;
 }
-
