@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Critical injuries, the nasty wounds that can happen during combat.">
+        <meta name="author" content="Nicholas Beaty">
+        <title>Nick's Homebrew Wiki - Critical Injuries</title>
+
+        <link rel = "stylesheet" href = "../Atributes.css" />
+    </head>
+    <bodY>
+        <h1>Critical Injuies</h1>
+        <h2>Physical Critical Injuries</h2>
+        <p>A character or creature can receive a critical injury when it receives a critical hit or rolls a 1 (or less) against a spell saving throw, and it meets the following criteria:</p>
+        <ul>
+            <li>The damage is Physical (Bludgeoning, Piercing, or Slashing)</li>
+            <li>The damage dealt (after resistances) is more than their Constitution Score + Level</li>
+        </ul>
+        <p>When those conditions are met, roll 1d8 to determine which injury they receive, corresponding to the table below.</p>
+        <table class="content-table">
+            <tr>
+                <th>Roll (1d8)</th>
+                <th>Injury</th>
+                <th>Injury Effect</th>
+                <th>Quick Fix (Medicine Check)</th>
+                <th>Treatment (Surgeon's Tools)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Collapsed Lung</td>
+                <td>-10 to move speed (minumum 5 feet). -2 to Death Saving Throws.</td>
+                <td>DC 17</td>
+                <td>DC 15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Broken Ribs</td>
+                <td>Suffer 1d8 damage every time you move more than 5 feet on your turn.</td>
+                <td>DC 15</td>
+                <td>
+                    <p>DC 15</p>
+                    <p>DC 20 (Medicine)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Broken Arm</td>
+                <td>Roll 1d2 to determine limb (1 = left, 2 = right). The arm cannot be used and all items held in the hand are dropped.</td>
+                <td>DC 15</td>
+                <td>
+                    <p>DC 15</p>
+                    <p>DC 20 (Medicine)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Foreign Object</td>
+                <td>Suffer 1d8 (per foriegn object) damage every time you move more than 5 feet on your turn.</td>
+                <td>DC 15</td>
+                <td> Quick Fix Removes Injury</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Broken Leg</td>
+                <td>Roll 1d2 to determine limb (1 = left, 2 = right). -20 move speed (minimum 5 feet), DC 16 Athletics or Acrobatics check to stay standing.</td>
+                <td>DC 15</td>
+                <td>
+                    <p>DC 15</p>
+                    <p>DC 20 (Medicine)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Torn Muscle</td>
+                <td>Roll 1d4 to determine limb (1 = left leg, 2 = right leg, 3 = left arm, 4 = right arm). -5 move speed per torn leg muscle, disadvantage on Dexterity Saving Throws. -2 to d20 rolls made using a arm with a torn muscle.</td>
+                <td>DC 15</td>
+                <td>Quick Fix Removes Injury</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Spinal Injury</td>
+                <td>Target can only move, take action, or bonus action on its next turn. -2 to Death Saving Throws.</td>
+                <td>DC 17</td>
+                <td>DC 15</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Crushed Fingers</td>
+                <td>-4 to all checks involving that hand.</td>
+                <td>DC 15</td>
+                <td>DC 15</td>
+            </tr>
+        </table>
+
+        <h2>Magical Critical Injuries</h2>
+        <p>Magic damage can also cause critical injuries; however, their injuries are mostly set.</p>
+        <p>A creature critically hit by magic damage receives a critical injury when it meets the following criteria:</p>
+        <ul>
+            <li>It is critically hit or rolls a 1 (or less) on a saving throw against the spell.</li>
+            <li>The damage dealt (after resistances) is more than their Constitution Score + Level.</li>
+        </ul>
+        <p><b>Physical damage from spells can still cause the injuries listed above.</b></p>
+        <p>The following damage types inflict the following critical injuries:</p>
+
+        <table class="content-table">
+            <tr>
+                <th>Damage Type(s)</th>
+                <th>Injury</th>
+                <th>Injury Effect</th>
+                <th>Removal</th>
+            </tr>
+            <tr>
+                <td>Fire</td>
+                <td>Singed</td>
+                <td>-2 to all d20 rolls.</td>
+                <td>Quick Fix (DC 15 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Cold</td>
+                <td>Frostbite</td>
+                <td>Halved move speed.</td>
+                <td>Quick Fix (DC 15 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Lightning/Ancient Dragon Lightning</td>
+                <td>Shocked</td>
+                <td>Cannot take reactions for two turns. Creatures that recieve this critical injury again before it clears gain the Stunned condition until the end of their next turn (removing Shocked)</td>
+                <td>Clears after 2 of the affected creature's turns</td>
+            </tr>
+            <tr>
+                <td>Poison</td>
+                <td>Poisoned</td>
+                <td>Creature gains the Poisoned condition (unless it is immune).</td>
+                <td>Quick Fix (DC 15 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Acid</td>
+                <td>Melted</td>
+                <td>AC is reduced by 2</td>
+                <td>
+                    <p>Permanent on non-magical armor (DC 15 Smith's Tools check over 1 minute to clear or Mending Cantrip)</p>
+                    <p>This effect otherwise clears after 2 of the affected creature's turns</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Thunder</td>
+                <td>Tinnitus</td>
+                <td>Disadvantage on Perception checks made to hear things. Takes an additional die of Thunder damage from Thunder damage sources. This can stack</td>
+                <td>Quick Fix (DC 15 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Scarlet Rot</td>
+                <td>Scarlet Rot</td>
+                <td>Creature gains the Scarlet Rot condition (unless it is immune)</td>
+                <td>Clears after 1 minute</td>
+            </tr>
+            <tr>
+                <td>Necrotic</td>
+                <td>Necrosis</td>
+                <td>Creatures take an additional die of Necrotic damage when struck with Necrotic damage. This can stack.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Force</td>
+                <td>Impacted</td>
+                <td>Large or smaller creatures are pushed back 5 feet. Disadvantage on all attack rolls until the end of next turn</td>
+                <td>Clears after 1 of the affected creature's turns</td>
+            </tr>
+            <tr>
+                <td>Psychic</td>
+                <td>Befuddled</td>
+                <td>-2 to all d20 rolls. Must move 10 feet in a random direction at the start of turn.</td>
+                <td>Clears after 2 of the affected creature's turns</td>
+            </tr>
+        </table>
+
+        <h2>Death Saving Throws</h2>
+        <ul>
+            <li>Penalties to Death Saving Throws subtract from what you roll. This does not count Nat 20s, which restore you to 1 hp.</li>
+            <li>A creature suffering from a critical injury has a -1 to Death Saving Throws for each critical injury they are suffering (added to any penalties from Collapsed Lung or Spinal Injury).</li>
+            <li>Critical injuries that stack (Foriegn Object, Necrosis, Tinnitus) only provide 1 penalty to death saves, regardless of how many stacks you have.</li>
+            <li><b>Death Saves are now considered Constitution Saving Throws.</b></li>
+        </ul>
+        
+    
+        <h2>Critical Specifics</h2>
+        <ul>
+            <li>Shields on broken arms can no longer be used.</li>
+            <li>A creature that has more than the standard numer of limbs may not be affected by broekn limbs, or torn muscles.</li>
+            <li>Creatures that are already missing a limb or don't have certain body parts to critically injure (Ex: Plasmoid) instead recive Foriegn Object.</li>
+            <ul>
+                <li>This is different from Critical Injury Immunities, which simply don't happen if rolled.</li>
+            </ul>
+            <li>Wings are considered “legs” for the broken leg critical injury. If a creature cannot fly without one of its wings, it no longer has a fly speed and falls if it cannot be supported by the surface it is on.</li>
+            <li>A huge or larger-sized creature suffer critical injuries differently because of their size. For those creatures, do not roll the injury. When that creature is critically hit a second time, it is then critically injured. Roll the table or apply the effect as normal. This then resets.</li>
+            <li>For multiple types of damage:</li>
+            <ul>
+                <li>Weapons that deal extra damage add the appropriate damage type critical injury to the rolled table (ex: extra fire damage, roll 1d9, on a 9, inflict the Singed condition).</li>
+                <ul>
+                    <li>Weapons that only deal one type of damage (ex: Flametongue, Sunblade) only deal critical injuries relative to their damage type.</li>
+                </ul>
+                <li>Spells that cause multiple types of damage (ex: Meteor Swarm) roll to determine which injury is inflicted between the appropriate damage types.</li>
+            </ul>
+            <li>Fall damage will cause a critical injury (prioritizing legs or whatever they land on) if a creature takes fall damage equal to their Critical Injury Threshold. A creature can gain multiple injuries this way for every increment of their threshold they take in fall damage.</li>
+        </ul>
+
+        <h2>Healing Critical Injuries</h2>
+        <ul>
+            <li>Quick fixes take 1 minute to apply via a Medicine or Surgeon’s Tools check.</li>
+            <ul>
+                <li>Quick fixes last 1 hour.</li>
+            </ul>
+            <li>Treatment/Surgery takes place over a Long Rest.</li>
+            <ul>
+                <li>If the Surgery fails, the target does not gain the benefits of a Long Rest (but does not gain exhaustion for not sleeping).</li>
+            </ul>
+            <li>Injuries are automatically quick fixed when taking a Short Rest (no roll required).</li>
+            <ul>
+                <li>The timer for how long a quick fix lasts starts when the rest ends</li>
+            </ul>
+            <li>A creature can be treated by healing the full damage of the critical hit that dealt the injury (whether all at once or in chunks) by magic.</li>
+            <ul>
+                <li>A creature suffering from multiple critical injuries at the same time must heal through the first injury before healing through the next (excess healing from one injury carries over to the next).</li>
+            </ul>
+            <li>Long Rests do not heal critical injuries; however, they do automatically apply a quick fix that lasts 6 hours.</li>
+        </ul>
+
+        <h2>Feat Bonuses</h2>
+        <ul>
+            <li>The “Tough” feat now increases your critical injury threshold by 4.</li>
+            <li>The “Durable” feat now increases your critical injury threshold by 4.</li>
+            <li>The “Heavy Armor Master” feat now increases your critical injury threshold by 6 while wearing heavy armor.</li>
+            <li>The “Vigor of the Hill Giants” feat now increases your critical injury threshold by 2.</li>
+            <li>The “Shield Master” feat now increases your critical injury threshold by 2 while using a shield.</li>
+            <li>The "Healer" feat allows you to quick fix an injury as an action once per short or long rest.</li>
+        </ul>
+    </bodY>
+</html>
