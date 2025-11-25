@@ -19,5 +19,5 @@
         <h3>Actions</h3>
         <hr color="black">
         <div>
-            <p><b>Claw (Grunt, Guard, Slasher Only).</b> Melee Weapon Attack:  your spell attack modifier to hit, reach 5ft., one target. Hit: 1d8 + 3 + PB (+1d8 for slashers) slashing damage.</p>
+            <p><b>Claw.</b> Melee Weapon Attack:  your spell attack modifier to hit, reach 5ft., one target. Hit: 1d8 + slashing damage.</p>
         </div>
