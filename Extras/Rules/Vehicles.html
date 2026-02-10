@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Vehicles">
+        <meta name="author" content="Nicholas Beaty">
+        <title>Nick's Homebrew Wiki - Vehicles</title>
+
+        <link rel = "stylesheet" href = "../../Atributes.css" />
+    </head>
+    <body>
+        <!-- Rules for vehicles -->
+        <h1><b>Vehicles</b></h1>
+        <p>A vehicle's statistics function like those for creatures, with the following additional considerations.</p>
+        <p>The stats of vehicles can be found here: <a href="VehiclesList.html">Vehicles List</a></p>
+
+        <h3><b>Creature and Cargo Capacity</b></h3>
+        <p>Creature capacity describes how many creatures can ride the vehicle comfortably. More creatures can fit by squeezing or by clinging to the outside of the vehicle.</p>
+        <p>Cargo capacity specifies how much cargo the vehicle can carry.</p>
+
+        <h3><b>Armor Class</b></h3>
+        <p>A vehicle is typically made of steel and has an Armor Class of 16 + its Dexterity modifier. While the vehicle is not moving, attack rolls made against it have advantage.</p>
+       
+        <h3><b>Ability Scores</b></h3>
+        <p>A vehicle has the six ability scores and corresponding modifiers. Its size and weight determines its Strength. Dexterity represents its handling and maneuverability. A vehicle's Constitution reflects its durability and quality of construction. vehicles usually have a score of 0 in Intelligence, Wisdom, and Charisma.</p>
+        <p>If a vehicle has a 0 in a score, it automatically fails any ability check or saving throw that uses that score.</p>
+
+        <h3><b>Hit Points</b></h3>
+        <p>A vehicle's hit points can be restored by making repairs to the vehicle (see "Repairs"). When a vehicle drops to 0 hit points, it ceases to function and is damaged beyond repair.</p>
+        
+        <h3><b>Damage Threshold</b></h3>
+        <p>Vehicles have bulk or armor that allows them to shrug off minor hits. A vehicle with a damage threshold has immunity to all damage unless it takes an amount of damage equal to or greater than its damage threshold value, in which case it takes damage as normal. Any damage that fails to meet or exceed the vehicle's damage threshold is considered superficial and doesn't reduce the vehicle's hit points.</p>
+        
+        <h3><b>Mishap Threshold</b></h3>
+        <p>If a vehicle takes damage from a single source equal to or greater than its mishap threshold, it must roll on the Mishaps table (see "Mishaps").</p>
+        
+        <h3><b>Actions Stations and Crew</b></h3>
+        <p>A vehicle doesn't have actions of its own. It relies on crew to occupy stations and use their actions to operate the vehicle's various functions. Any option that appears in the Action Stations section of a vehicle's stat block requires an action to perform.</p>
+
+        <br>
+
+        <h2><b>Rules</b></h2>
+        <p>Rules for vehicles are summarized below.</p>
+        
+        <h3><b>Opportunity Attacks</b></h3>
+        <p>Vehicles provoke opportunity attacks as normal. When a vehicle provokes an opportunity attack, the attacker can target the vehicle or any creature riding on or inside it that doesn't have total cover and is within reach.</p>
+        
+        <h3><b>Action Stations</b></h3>
+        <p>A creature can use an action of the station it's occupying. Once a creature uses a station's action, that action can't be used again until the start of that creature's next turn. Only one creature can occupy each station.</p>
+        <p>A creature not occupying an action station is either in a passenger seat or clinging to the outside of the vehicle. It can take actions as normal.</p>
+
+        <h3><b>Helm</b></h3>
+        <p>The helm of a vehicle is a chair with a wheel, levers, pedals, and other controls. The helm requires a driver to operate. A vehicle with no driver automatically fails Dexterity saving throws.</p>
+        <p>A driver proficient with land vehicles can add its proficiency bonus to ability checks and saving throws made using the vehicle's ability scores.</p>
+        <p><b>Drive:</b> While the vehicle's engine is on, the driver can use an action to propel the vehicle up to its speed or bring the vehicle to a dead stop. While the vehicle is moving, the driver can steer it along any course.</p>
+        <p>If the driver is incapacitated, leaves the helm, or does nothing to alter the vehicle's course and speed, the vehicle moves in the same direction and at the same speed as it did during the driver's last turn until it hits an obstacle big enough to stop it.</p>
+
+        <h3><b>Bonus Actions</b></h3>
+        <p>As a bonus action, the driver can do one of the following:</p>
+        <ul>
+            <li>Start the vehicle's engine or shut it off.</li>
+            <li>Cause the vehicle to take the Dash or Disengage action while the vehicle's engine is running.</li>
+        </ul>
+
+        <h3><b>Crashing</b></h3>
+        <p>When a vehicle crashes into something that could reasonably damage it, such as an iron wall or another vehicle of its size or bigger, the vehicle comes to a sudden stop and takes 1d6 bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6). Whatever the vehicle struck takes the same amount of damage. If this damage is less than the vehicle's damage threshold, the vehicle takes no damage from the crash.</p>
+        <p>Regardless of whether or not the vehicle takes damage, each creature on or inside the vehicle when it crashes must make a DC 15 Strength saving throw, taking 1d6 bludgeoning damage for every 10 feet the vehicle moved since its last turn (maximum 20d6), or half as much damage on a successful save.</p>
+        <h4><b>Crashing into Creatures</b></h4>
+        <p>A vehicle can crash into a creature by entering its space. The creature can use its reaction to attempt to get out of the vehicle's way, doing so and taking no damage with a successful DC 10 Dexterity saving throw. If the saving throw fails, the vehicle slams into the creature and deals 1d6 bludgeoning damage to the creature for every 10 feet the vehicle moved since its last turn (maximum 20d6).</p>
+        <p>A vehicle that is at least two size categories bigger than the creature it crashed into can continue moving through that creature's space if the vehicle has any movement left. Otherwise, the vehicle comes to a sudden stop, and each creature on or inside the vehicle when it crashes must make a DC 15 Strength saving throw, taking 1d6 bludgeoning damage for every 10 feet the vehicle moved since its last turn (maximum 20d6), or half as much damage on a successful save.</p>
+
+        <br>
+
+        <h2>Repairs</h2>
+        <p>When a vehicle is damaged or suffers a mishap, a creature can attempt to make repairs to the vehicle. The creature making the repairs must meet the following criteria:</p>
+        <ul>
+            <li>The creature can't operate the vehicle's helm or one of its weapon stations while making repairs.</li>
+            <li>The creature must be within reach of the damaged area in need of repair.</li>
+            <li>The creature must have the right tools for the job.</li>
+        </ul>
+        <p>Before beginning repairs, a creature must decide whether the repairs are aimed at ending a mishap, or restoring the damaged vehicle's hit points. Each option is discussed below.</p>
+        
+        <h3>End a Mishap</h3>
+        <p>A creature can use its action to make an ability check based on the nature of the mishap (see the Mishaps table), with disadvantage if the vehicle is moving. The creature adds its proficiency bonus to the check if it's proficient with the tools used to make the repairs. A successful check ends the mishap. A mishap with no repair DC can't be repaired.</p>
+        <h3>Restoring Hit Points</h3>
+        <p>If the vehicle has taken damage but has at least 1 hit point, a creature can spend 1 hour or more trying to patch the hull and replace damaged parts. The vehicle must be stationary, and the creature must have the spare parts to make the necessary repairs. After 1 hour of repair work, the creature makes a DC 15 Dexterity check, adding its proficiency bonus to the check if it's proficient with the tools used to make repairs. If the check succeeds, the vehicle regains 2d4 + 2 hit points. If the check fails, the vehicle regains no hit points, but the repair can be attempted again using the same replacement parts.</p>
+
+        <br>
+
+        <h2>Mishaps</h2>
+        <table class = "content-table">
+            <thead>
+                <tr>
+                    <th>d20</th>
+                    <th>Mishap Effect</th>
+                    <th>Repair DC</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><b>Engine Jolt:</b> Electricity erupts from the engine and electrifies the vehicle. Any creature that starts its turn on or inside the vehicle takes 10 (3d6) lightning damage until this mishap ends.</td>
+                    <td>15 (Dex)</td>
+                </tr>
+                <tr>
+                    <td>2-4</td>
+                    <td><b>Locked Steering:</b> The vehicle can move in a straight line only. It automatically fails Dexterity checks and Dexterity saving throws until this mishap ends.</td>
+                    <td>15 (Str)</td>
+                </tr>
+                <tr>
+                    <td>5-7</td>
+                    <td><b>Flat Tire:</b> The vehicle's speed decreases by 30 feet until this mishap ends.</td>
+                    <td>15 (Str)</td>
+                </tr>
+                <tr>
+                    <td>8-10</td>
+                    <td><b>Damage Accelerator:</b> The vehicle randomly accelerates and decelerates, unable to stop moving. At the start of the driver’s turn, roll a d20 and multiply the roll by 5. That is the vehicle’s speed for the turn, for which it must move. A vehicle cannot go over its maximum speed.</td>
+                    <td>15 (Str)</td>
+                </tr>
+                <tr>
+                    <td>11-13</td>
+                    <td><b>Blinding Smoke:</b> The helm station fills with smoke and is heavily obscured until this mishap ends. Any creature in the helm station is blinded by the smoke.</td>
+                    <td>15 (Dex)</td>
+                </tr>
+                <tr>
+                    <td>14-16</td>
+                    <td><b>Shredded Armor:</b> The vehicle's damage threshold is reduced by 10 until this mishap ends.</td>
+                    <td>15 (Str)</td>
+                </tr>
+                <tr>
+                    <td>17-19</td>
+                    <td><b>Damaged Axle:</b> The vehicle grinds and shakes uncontrollably. Until the mishap ends, the vehicle has disadvantage on all Dexterity checks, and all ability checks and attack rolls made by creatures on or inside the vehicle have disadvantage.</td>
+                    <td>20 (Dex)</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><b>Locked Steering:</b> The vehicle flips over, falls prone, and comes to a dead stop in an unoccupied space. Any unsecured creature holding on to the outside of the vehicle must succeed on a DC 20 Strength saving throw or be thrown off, landing prone in a random unoccupied space within 20 feet of the overturned vehicle. Creatures inside the vehicle fall prone and must succeed on a DC 15 Strength saving throw or take 10 (3d6) bludgeoning damage.</td>
+                    <td>None</td>
+                </tr>
+        </table>
+    </body>
+</html>
